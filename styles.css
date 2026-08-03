@@ -183,3 +183,8 @@ footer .footer-logo{ height:36px; width:auto; margin:0 auto 14px; border-radius:
   font-weight:600; font-size:.92rem; padding:12px;
 }
 .avail-card .avail-btn:hover{ background:#4d5934; }
+
+.avail-card.compact{ margin-top:0; }
+.avail-card.compact .avail-body{ padding:12px 14px 10px; }
+.avail-card.compact .avail-body p{ font-size:.82rem; }
+.avail-card.compact .avail-btn{ padding:9px; font-size:.82rem; }
