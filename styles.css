@@ -148,6 +148,7 @@ ul.points li::before{ content:"—"; color:var(--terracotta); font-weight:700; }
 /* ---------- Footer ---------- */
 footer{ padding: 40px 24px 60px; text-align:center; color: var(--ink-soft); font-size:.9rem; }
 footer a{ text-decoration:underline; }
+footer .footer-logo{ height:36px; width:auto; margin:0 auto 14px; border-radius:8px; }
 
 .badge-row{ display:flex; gap:10px; flex-wrap:wrap; margin-top:16px; }
 
