@@ -150,3 +150,22 @@ footer{ padding: 40px 24px 60px; text-align:center; color: var(--ink-soft); font
 footer a{ text-decoration:underline; }
 
 .badge-row{ display:flex; gap:10px; flex-wrap:wrap; margin-top:16px; }
+
+/* ---------- Map card ---------- */
+.tag-wrap{ display:flex; flex-direction:column; gap:14px; }
+
+.map-card{
+  border-radius:14px; overflow:hidden; border:1px solid var(--line); background:var(--card);
+  margin-top:20px;
+}
+.map-card iframe{ width:100%; height:220px; display:block; border:0; }
+.map-card .map-btn{
+  display:block; text-align:center; text-decoration:none;
+  background: var(--ochre); color: var(--ink);
+  font-weight:600; font-size:.92rem; padding:12px;
+}
+.map-card .map-btn:hover{ background:#dcae4a; }
+
+.map-card.compact{ margin-top:0; }
+.map-card.compact iframe{ height:140px; }
+.map-card.compact .map-btn{ padding:9px; font-size:.82rem; }
