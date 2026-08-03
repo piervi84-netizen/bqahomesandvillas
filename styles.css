@@ -170,3 +170,16 @@ footer .footer-logo{ height:36px; width:auto; margin:0 auto 14px; border-radius:
 .map-card.compact{ margin-top:0; }
 .map-card.compact iframe{ height:140px; }
 .map-card.compact .map-btn{ padding:9px; font-size:.82rem; }
+
+.avail-card{
+  border-radius:14px; overflow:hidden; border:1px solid var(--line); background:var(--card);
+  margin-top:14px;
+}
+.avail-card .avail-body{ padding:16px 18px 14px; }
+.avail-card .avail-body p{ font-size:.92rem; color:var(--ink); line-height:1.6; margin:6px 0 0; }
+.avail-card .avail-btn{
+  display:block; text-align:center; text-decoration:none;
+  background: var(--olive); color: var(--bg);
+  font-weight:600; font-size:.92rem; padding:12px;
+}
+.avail-card .avail-btn:hover{ background:#4d5934; }
