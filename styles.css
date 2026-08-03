@@ -137,6 +137,13 @@ ul.points li::before{ content:"—"; color:var(--terracotta); font-weight:700; }
   font-family:'JetBrains Mono', monospace; font-size:.86rem; line-height:1.7;
 }
 
+.pay-badges{ display:flex; gap:8px; flex-wrap:wrap; margin-top:14px; }
+.pay-badges span{
+  font-family:'JetBrains Mono', monospace; font-size:.72rem; letter-spacing:.05em; text-transform:uppercase;
+  color: rgba(242,237,228,0.85); background: rgba(242,237,228,0.08);
+  border:1px solid rgba(242,237,228,0.25); border-radius:20px; padding:5px 12px;
+}
+
 /* ---------- Footer ---------- */
 footer{ padding: 40px 24px 60px; text-align:center; color: var(--ink-soft); font-size:.9rem; }
 footer a{ text-decoration:underline; }
