@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>BQA Homes and Villas — Appartamenti e ville boutique a Roma e in Puglia</title>
-<meta name="description" content="BQA Homes and Villas: tre indirizzi boutique in Italia — Trastevere, Flaminio e la campagna di Castellana Grotte. Prenota direttamente con noi.">
+<title data-i18n="index.title">BQA Homes and Villas — Appartamenti e ville boutique a Roma e in Puglia</title>
+<meta name="description" id="meta-description" data-i18n="index.meta" data-i18n-attr="content" content="BQA Homes and Villas: tre indirizzi boutique in Italia — Trastevere, Flaminio e la campagna di Castellana Grotte. Prenota direttamente con noi.">
 <link rel="icon" type="image/png" href="images/LOGO.png">
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -13,17 +13,23 @@
 <header class="site-header">
   <nav class="nav">
     <a href="index.html" class="brand">BQA <span>Homes</span> and Villas</a>
-    <ul class="nav-links">
-      <li><a href="index.html#strutture">Strutture</a></li>
-      <li><a href="index.html#contatti">Contatti</a></li>
-    </ul>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="index.html#strutture" data-i18n="nav.strutture">Strutture</a></li>
+        <li><a href="index.html#contatti" data-i18n="nav.contatti">Contatti</a></li>
+      </ul>
+      <div class="lang-switch" role="group" aria-label="Lingua / Language">
+        <button type="button" class="lang-btn" data-lang="it" aria-pressed="true">IT</button>
+        <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </div>
   </nav>
 </header>
 
 <section class="hero">
-  <div class="mono eyebrow">Roma · Puglia — Ospitalità indipendente</div>
-  <h1>Le chiavi di casa nostra, per il tuo soggiorno in Italia.</h1>
-  <p class="lede">Tre indirizzi curati da BQA: due nel cuore di Roma, uno nella campagna di Castellana Grotte, in Puglia. Prenota direttamente con noi, senza intermediari.</p>
+  <div class="mono eyebrow" data-i18n="index.hero.eyebrow">Roma · Puglia — Ospitalità indipendente</div>
+  <h1 data-i18n="index.hero.h1">Le chiavi di casa nostra, per il tuo soggiorno in Italia.</h1>
+  <p class="lede" data-i18n="index.hero.lede">Tre indirizzi curati da BQA: due nel cuore di Roma, uno nella campagna di Castellana Grotte, in Puglia. Prenota direttamente con noi, senza intermediari.</p>
 </section>
 
 <section id="strutture" class="tags">
@@ -33,18 +39,18 @@
       <img class="ring" src="images/LOGO.png" alt="BQA">
       <div class="photo"><img src="images/Trastevere/3.jpg" alt="BQA San Crisogono Apartments Rome-Trastevere"></div>
       <div class="body">
-        <div class="mono">Trastevere · Roma</div>
+        <div class="mono" data-i18n="index.tag.trastevere.loc">Trastevere · Roma</div>
         <h3>BQA San Crisogono Apartments Rome-Trastevere</h3>
-        <p>Storico appartamento di 80 mq nel cuore di Trastevere, con cucina attrezzata e balcone privato.</p>
+        <p data-i18n="index.tag.trastevere.desc">Storico appartamento di 80 mq nel cuore di Trastevere, con cucina attrezzata e balcone privato.</p>
         <div class="specs">
-          <span>Fino a 4 ospiti</span>
-          <span>Balcone privato</span>
+          <span data-i18n="specs.upto4">Fino a 4 ospiti</span>
+          <span data-i18n="index.tag.trastevere.spec2">Balcone privato</span>
         </div>
       </div>
     </a>
     <div class="map-card compact">
       <iframe src="https://www.google.com/maps?q=41.8880726,12.4743106&z=16&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mappa BQA San Crisogono Apartments Rome-Trastevere"></iframe>
-      <a class="map-btn" href="https://www.google.com/maps/place/BQA+San+Crisogono+Apartments+Rome-Trastevere/@41.8880726,12.4717357,17z/data=!4m11!3m10!1s0x132f6107975628ed:0x79af854c231a8281!5m4!1s2026-08-06!2i3!4m1!1i2!8m2!3d41.8880726!4d12.4743106!16s%2Fg%2F11y474mmqk?authuser=1&amp;entry=ttu&amp;g_ep=EgoyMDI2MDcyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">Vedi su mappa</a>
+      <a class="map-btn" data-i18n="map.view" href="https://www.google.com/maps/place/BQA+San+Crisogono+Apartments+Rome-Trastevere/@41.8880726,12.4717357,17z/data=!4m11!3m10!1s0x132f6107975628ed:0x79af854c231a8281!5m4!1s2026-08-06!2i3!4m1!1i2!8m2!3d41.8880726!4d12.4743106!16s%2Fg%2F11y474mmqk?authuser=1&amp;entry=ttu&amp;g_ep=EgoyMDI2MDcyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">Vedi su mappa</a>
     </div>
   </div>
 
@@ -53,18 +59,18 @@
       <img class="ring" src="images/LOGO.png" alt="BQA">
       <div class="photo"><img src="images/Flaminio/1.JPG" alt="BQA Fracassini Rooms Rome-Flaminio"></div>
       <div class="body">
-        <div class="mono">Flaminio · Roma</div>
+        <div class="mono" data-i18n="index.tag.flaminio.loc">Flaminio · Roma</div>
         <h3>BQA Fracassini Rooms Rome-Flaminio</h3>
-        <p>Camere boutique con bagno e cucina privati, a 10 minuti a piedi da Piazza del Popolo.</p>
+        <p data-i18n="index.tag.flaminio.desc">Camere boutique con bagno e cucina privati, a 10 minuti a piedi da Piazza del Popolo.</p>
         <div class="specs">
-          <span>3 tipologie camera</span>
-          <span>Colazione inclusa</span>
+          <span data-i18n="index.tag.flaminio.spec1">3 tipologie camera</span>
+          <span data-i18n="index.tag.flaminio.spec2">Colazione inclusa</span>
         </div>
       </div>
     </a>
     <div class="map-card compact">
       <iframe src="https://www.google.com/maps?q=41.9234542,12.4691615&z=16&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mappa BQA Fracassini Rooms Rome-Flaminio"></iframe>
-      <a class="map-btn" href="https://www.google.com/maps/place/BQA+Fracassini+Rooms+Rome-Flaminio/@41.9234542,12.4665866,17z/data=!3m1!4b1!4m9!3m8!1s0x132f6139728bdc01:0xfcf9cb8cf42d84df!5m2!4m1!1i2!8m2!3d41.9234542!4d12.4691615!16s%2Fg%2F11lp60v3zh?hl=it-IT&amp;entry=ttu&amp;g_ep=EgoyMDI2MDcyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">Vedi su mappa</a>
+      <a class="map-btn" data-i18n="map.view" href="https://www.google.com/maps/place/BQA+Fracassini+Rooms+Rome-Flaminio/@41.9234542,12.4665866,17z/data=!3m1!4b1!4m9!3m8!1s0x132f6139728bdc01:0xfcf9cb8cf42d84df!5m2!4m1!1i2!8m2!3d41.9234542!4d12.4691615!16s%2Fg%2F11lp60v3zh?hl=it-IT&amp;entry=ttu&amp;g_ep=EgoyMDI2MDcyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">Vedi su mappa</a>
     </div>
   </div>
 
@@ -75,37 +81,37 @@
       <div class="body">
         <div class="mono">Castellana Grotte · Puglia</div>
         <h3>BQA La Masseriola Private Villa-Trullo</h3>
-        <p>Trullo con piscina privata, giardino e barbecue, immerso nella campagna pugliese.</p>
+        <p data-i18n="index.tag.masseriola.desc">Trullo con piscina privata, giardino e barbecue, immerso nella campagna pugliese.</p>
         <div class="specs">
-          <span>Fino a 4+1 ospiti</span>
-          <span>Piscina privata</span>
+          <span data-i18n="index.tag.masseriola.spec1">Fino a 4+1 ospiti</span>
+          <span data-i18n="index.tag.masseriola.spec2">Piscina privata</span>
         </div>
       </div>
     </a>
     <div class="map-card compact">
       <iframe src="https://www.google.com/maps?q=40.8542347,17.2063741&z=16&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mappa BQA La Masseriola Private Villa-Trullo"></iframe>
-      <a class="map-btn" href="https://www.google.com/maps/place/Strada+Comunale+Masseriola,+70013+Castellana+Grotte+BA/@40.8542347,17.2037992,17z/data=!3m1!4b1!4m6!3m5!1s0x1347b40980328535:0xad001b690aec833f!8m2!3d40.8542347!4d17.2063741!16s%2Fg%2F1q6j5svrz?entry=ttu&amp;g_ep=EgoyMDI2MDcyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">Vedi su mappa</a>
+      <a class="map-btn" data-i18n="map.view" href="https://www.google.com/maps/place/Strada+Comunale+Masseriola,+70013+Castellana+Grotte+BA/@40.8542347,17.2037992,17z/data=!3m1!4b1!4m6!3m5!1s0x1347b40980328535:0xad001b690aec833f!8m2!3d40.8542347!4d17.2063741!16s%2Fg%2F1q6j5svrz?entry=ttu&amp;g_ep=EgoyMDI2MDcyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">Vedi su mappa</a>
     </div>
   </div>
 
 </section>
 
 <section class="section">
-  <div class="mono">Chi siamo</div>
+  <div class="mono" data-i18n="index.about.eyebrow">Chi siamo</div>
   <h2>BQA Homes and Villas</h2>
-  <p class="lede" style="max-width:60ch;">Curiamo ogni dettaglio del soggiorno, dalla pulizia impeccabile al check-in autonomo pensato per un arrivo senza pensieri.</p>
+  <p class="lede" style="max-width:60ch;" data-i18n="index.about.lede">Curiamo ogni dettaglio del soggiorno, dalla pulizia impeccabile al check-in autonomo pensato per un arrivo senza pensieri.</p>
   <ul class="points">
-    <li>Standard elevati di igiene e comfort, verificati prima di ogni arrivo</li>
-    <li>Self check-in per un arrivo flessibile, senza attese</li>
-    <li>Assistenza 24/7 via telefono, SMS o email per qualsiasi richiesta</li>
-    <li>Pagamenti con carte di credito/debito (Visa, Mastercard, American Express, Diners Club, JCB, Discover, CartaSì, UnionPay), contanti o bonifico bancario su richiesta</li>
+    <li data-i18n="index.about.p1">Standard elevati di igiene e comfort, verificati prima di ogni arrivo</li>
+    <li data-i18n="index.about.p2">Self check-in per un arrivo flessibile, senza attese</li>
+    <li data-i18n="index.about.p3">Assistenza 24/7 via telefono, SMS o email per qualsiasi richiesta</li>
+    <li data-i18n="index.about.p4">Pagamenti con carte di credito/debito (Visa, Mastercard, American Express, Diners Club, JCB, Discover, CartaSì, UnionPay), contanti o bonifico bancario su richiesta</li>
   </ul>
 </section>
 
 <section id="contatti" class="section alt">
-  <div class="mono">Parliamone direttamente</div>
-  <h2>Contattaci</h2>
-  <p>Per disponibilità, richieste particolari o dubbi su una delle tre strutture, il modo più veloce è scriverci su WhatsApp o via email.</p>
+  <div class="mono" data-i18n="index.contact.eyebrow">Parliamone direttamente</div>
+  <h2 data-i18n="index.contact.h2">Contattaci</h2>
+  <p data-i18n="index.contact.p">Per disponibilità, richieste particolari o dubbi su una delle tre strutture, il modo più veloce è scriverci su WhatsApp o via email.</p>
   <div class="badge-row">
     <a class="btn btn-primary" href="https://wa.me/393892570302" target="_blank" rel="noopener">WhatsApp +39 389 257 0302</a>
     <a class="btn btn-outline" style="border-color:var(--line); color:var(--ink);" href="mailto:bqaboutiquehomesandvillas@gmail.com">bqaboutiquehomesandvillas@gmail.com</a>
@@ -114,9 +120,11 @@
 
 <footer>
   <img class="footer-logo" src="images/LOGO.png" alt="BQA Homes and Villas">
-  <p>BQA Homes and Villas — Roma & Puglia</p>
+  <p data-i18n="footer.line1">BQA Homes and Villas — Roma & Puglia</p>
   <p><a href="mailto:bqaboutiquehomesandvillas@gmail.com">bqaboutiquehomesandvillas@gmail.com</a></p>
 </footer>
+
+<script src="i18n.js"></script>
 
 </body>
 </html>
