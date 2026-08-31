@@ -62,6 +62,14 @@ const BQA_TRANSLATIONS = {
     "index.contact.eyebrow": "Parliamone direttamente",
     "index.contact.h2": "Contattaci",
     "index.contact.p": "Per disponibilità, richieste particolari o dubbi su una delle tre strutture, il modo più veloce è scriverci su WhatsApp o via email.",
+    "index.reviews.h2": "Cosa dicono gli ospiti di noi",
+    "index.reviews.subtitle": "Recensioni vere dei nostri ospiti su Airbnb e Booking.com",
+    "index.reviews.score.value": "4,83",
+    "index.reviews.score.badge": "Amato dagli ospiti",
+    "index.reviews.score.caption": "Valutazioni di BQA San Crisogono Apartments Rome-Trastevere",
+    "index.reviews.simona.quote": "\"La posizione, la pulizia e la praticità.\"",
+    "index.reviews.roberto.quote": "\"A due passi da Ponte Cestio, vicino ai migliori ristoranti di Trastevere.\"",
+    "index.reviews.robyn.quote": "\"Guido è stato super disponibile. Ottima posizione per esplorare Trastevere a piedi.\"",
 
     // ---------- trastevere.html ----------
     "trastevere.meta": "Storico appartamento di 80 mq nel cuore di Trastevere, Roma. Fino a 4 ospiti, cucina attrezzata, aria condizionata, WiFi veloce, colazione inclusa. Prenota direttamente con BQA Homes and Villas.",
@@ -224,6 +232,14 @@ const BQA_TRANSLATIONS = {
     "index.contact.eyebrow": "Let's talk directly",
     "index.contact.h2": "Contact us",
     "index.contact.p": "For availability, special requests or questions about any of our three properties, the fastest way to reach us is WhatsApp or email.",
+    "index.reviews.h2": "What guests say about us",
+    "index.reviews.subtitle": "Real reviews from our guests on Airbnb and Booking.com",
+    "index.reviews.score.value": "4.83",
+    "index.reviews.score.badge": "Guest favorite",
+    "index.reviews.score.caption": "Ratings for BQA San Crisogono Apartments Rome-Trastevere",
+    "index.reviews.simona.quote": "\"The location, the cleanliness, and how practical it was.\"",
+    "index.reviews.roberto.quote": "\"Just steps from Ponte Cestio, close to the best restaurants in Trastevere.\"",
+    "index.reviews.robyn.quote": "\"Guido was super responsive. Great location to explore Trastevere on foot.\"",
 
     // ---------- trastevere.html ----------
     "trastevere.meta": "Historic 80 sqm apartment in the heart of Trastevere, Rome. Up to 4 guests, fully equipped kitchen, air conditioning, fast WiFi, breakfast included. Book directly with BQA Homes and Villas.",
