@@ -30,6 +30,12 @@ const BQA_TRANSLATIONS = {
     "h2.zona": "La zona",
     "specs.upto4": "Fino a 4 ospiti",
     "crib.onrequest": "Culla disponibile su richiesta",
+    "direct.title": "Perché Prenotare Diretto",
+    "direct.benefit1": "Zero commissioni OTA — stesso soggiorno, prezzo migliore",
+    "direct.benefit2": "Comunicazione diretta con l'host — rispondiamo noi, non un call center",
+    "direct.benefit3": "Stessi standard di Airbnb/Booking — pulizia, self check-in, assistenza 24/7",
+    "direct.benefit4": "Più flessibilità — richieste particolari gestite direttamente",
+    "direct.benefit5": "Pagamento sicuro — bonifico o carta, senza intermediari",
 
     // ---------- index.html ----------
     "index.title": "BQA Homes and Villas — Appartamenti e ville boutique a Roma e in Puglia",
@@ -154,6 +160,12 @@ const BQA_TRANSLATIONS = {
     "h2.zona": "The area",
     "specs.upto4": "Up to 4 guests",
     "crib.onrequest": "Crib available on request",
+    "direct.title": "Why Book Direct",
+    "direct.benefit1": "No OTA commissions — same stay, better price",
+    "direct.benefit2": "Direct communication with your host — you talk to us, not a call center",
+    "direct.benefit3": "Same standards as Airbnb/Booking — cleanliness, self check-in, 24/7 support",
+    "direct.benefit4": "More flexibility — special requests handled directly",
+    "direct.benefit5": "Secure payment — bank transfer or card, no middlemen",
 
     // ---------- index.html ----------
     "index.title": "BQA Homes and Villas — Boutique Apartments and Villas in Rome and Puglia",
