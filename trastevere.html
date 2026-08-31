@@ -277,7 +277,7 @@
   <button type="button" class="lightbox-prev" data-i18n="lightbox.prev" data-i18n-attr="aria-label" aria-label="Foto precedente">&#8249;</button>
   <img class="lightbox-img" src="" data-i18n="trastevere.zona2.lightbox.alt" data-i18n-attr="alt" alt="Foto del quartiere di Trastevere, Roma">
   <button type="button" class="lightbox-next" data-i18n="lightbox.next" data-i18n-attr="aria-label" aria-label="Foto successiva">&#8250;</button>
-  <div class="lightbox-counter" id="lightbox-counter"></div>
+  <div class="lightbox-counter" id="lightbox-counter" aria-live="polite"></div>
 </div>
 
 <div class="review-modal" id="review-modal" aria-hidden="true">
@@ -316,12 +316,14 @@
     lb.setAttribute("aria-hidden", "false");
     document.body.style.overflow = "hidden";
     window.BQA_openModalA11y(lb);
+    window.BQA_setBackgroundInert(lb, true);
   }
   function close(){
     lb.classList.remove("open");
     lb.setAttribute("aria-hidden", "true");
     document.body.style.overflow = "";
     window.BQA_closeModalA11y();
+    window.BQA_setBackgroundInert(lb, false);
   }
 
   document.querySelectorAll(".zona-thumb").forEach(function(btn){
@@ -356,12 +358,14 @@
     modal.setAttribute("aria-hidden", "false");
     document.body.style.overflow = "hidden";
     window.BQA_openModalA11y(modalBox);
+    window.BQA_setBackgroundInert(modal, true);
   }
   function closeReview(){
     modal.classList.remove("open");
     modal.setAttribute("aria-hidden", "true");
     document.body.style.overflow = "";
     window.BQA_closeModalA11y();
+    window.BQA_setBackgroundInert(modal, false);
   }
 
   document.querySelectorAll(".review-card").forEach(function(card){

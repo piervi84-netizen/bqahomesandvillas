@@ -527,7 +527,21 @@ const BQA_TRANSLATIONS = {
     }
   }
 
+  function setBackgroundInert(modalRoot, on) {
+    Array.prototype.forEach.call(document.body.children, function (el) {
+      if (el === modalRoot || el.tagName === "SCRIPT") return;
+      if (on) {
+        el.setAttribute("inert", "");
+        el.setAttribute("aria-hidden", "true");
+      } else {
+        el.removeAttribute("inert");
+        el.removeAttribute("aria-hidden");
+      }
+    });
+  }
+
   window.BQA_openModalA11y = openModalA11y;
   window.BQA_closeModalA11y = closeModalA11y;
   window.BQA_trapFocusKeydown = trapFocusKeydown;
+  window.BQA_setBackgroundInert = setBackgroundInert;
 })();

@@ -263,12 +263,14 @@
     modal.setAttribute("aria-hidden", "false");
     document.body.style.overflow = "hidden";
     window.BQA_openModalA11y(modalBox);
+    window.BQA_setBackgroundInert(modal, true);
   }
   function closeReview(){
     modal.classList.remove("open");
     modal.setAttribute("aria-hidden", "true");
     document.body.style.overflow = "";
     window.BQA_closeModalA11y();
+    window.BQA_setBackgroundInert(modal, false);
   }
 
   document.querySelectorAll(".review-card").forEach(function(card){
