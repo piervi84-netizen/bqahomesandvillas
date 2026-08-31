@@ -42,7 +42,7 @@ const BQA_TRANSLATIONS = {
 
     // ---------- index.html ----------
     "index.title": "BQA Homes and Villas — Appartamenti e ville boutique a Roma e in Puglia",
-    "index.meta": "BQA Homes and Villas: tre indirizzi boutique in Italia — Trastevere, Flaminio e la campagna di Castellana Grotte. Prenota direttamente con noi.",
+    "index.meta": "BQA Homes and Villas: soggiorni boutique a Roma (Trastevere, Flaminio) e nella campagna pugliese di Castellana Grotte. Prenota direttamente con noi.",
     "index.hero.eyebrow": "Roma · Puglia — Ospitalità indipendente",
     "index.hero.h1": "Soggiorni curati nel cuore dell'Italia.",
     "index.hero.lede": "Indirizzi curati da BQA a Roma e in Puglia. Prenota direttamente con noi, senza intermediari.",
@@ -248,7 +248,7 @@ const BQA_TRANSLATIONS = {
 
     // ---------- index.html ----------
     "index.title": "BQA Homes and Villas — Boutique Apartments and Villas in Rome and Puglia",
-    "index.meta": "BQA Homes and Villas: three boutique addresses in Italy — Trastevere, Flaminio and the countryside of Castellana Grotte. Book directly with us.",
+    "index.meta": "BQA Homes and Villas: boutique stays in Rome (Trastevere, Flaminio) and the Puglia countryside near Castellana Grotte. Book directly with us.",
     "index.hero.eyebrow": "Rome · Puglia — Independent hospitality",
     "index.hero.h1": "Curated Italian stays, close to it all.",
     "index.hero.lede": "Addresses curated by BQA in Rome and Puglia. Book directly with us, no middlemen.",
