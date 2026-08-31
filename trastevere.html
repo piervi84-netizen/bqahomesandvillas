@@ -154,7 +154,7 @@
   <button type="button" class="btn btn-outline" id="zona-lightbox-open" data-i18n="trastevere.zona2.btn" style="margin-top:18px;">Vedi altre foto del quartiere</button>
 </section>
 
-<section class="section reviews-section">
+<section class="section alt reviews-section">
   <h2 data-i18n="reviews.h2">Cosa dicono i nostri ospiti</h2>
   <p class="lede" data-i18n="reviews.subtitle">Recensioni vere da Airbnb e Booking.com</p>
 
@@ -322,8 +322,8 @@
     lb.classList.remove("open");
     lb.setAttribute("aria-hidden", "true");
     document.body.style.overflow = "";
-    window.BQA_closeModalA11y();
     window.BQA_setBackgroundInert(lb, false);
+    window.BQA_closeModalA11y();
   }
 
   document.querySelectorAll(".zona-thumb").forEach(function(btn){
@@ -364,8 +364,8 @@
     modal.classList.remove("open");
     modal.setAttribute("aria-hidden", "true");
     document.body.style.overflow = "";
-    window.BQA_closeModalA11y();
     window.BQA_setBackgroundInert(modal, false);
+    window.BQA_closeModalA11y();
   }
 
   document.querySelectorAll(".review-card").forEach(function(card){

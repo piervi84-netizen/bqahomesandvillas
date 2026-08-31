@@ -265,8 +265,7 @@ footer .footer-logo{ height:36px; width:auto; margin:0 auto 14px; border-radius:
   gap:14px; margin-top:20px;
 }
 .why-card{
-  background: var(--card); border:1px solid var(--line); border-radius: var(--radius);
-  padding: 22px 16px; text-align:center;
+  padding: 12px 10px; text-align:center;
 }
 .why-icon{ font-size:1.8rem; margin-bottom:10px; }
 .why-card p{ margin:0; font-size:.92rem; color:var(--ink); line-height:1.5; }
@@ -311,7 +310,16 @@ footer .footer-logo{ height:36px; width:auto; margin:0 auto 14px; border-radius:
   transition: transform .2s ease, box-shadow .2s ease;
 }
 .review-card:hover{ transform: translateY(-3px); box-shadow: 0 14px 30px rgba(30,27,22,0.12); }
+.review-quote::before{
+  content:"\201C"; display:block; font-family:'Fraunces', serif;
+  font-size:2.2rem; line-height:1; color: var(--terracotta); margin-bottom:2px;
+}
 .review-quote{ display:block; font-size:.92rem; color:var(--ink); line-height:1.5; }
+
+/* La sezione recensioni usa .section.alt (sfondo --card): le card interne
+   passano a --bg per restare distinguibili invece di confondersi con lo sfondo */
+.reviews-section.alt .review-card,
+.reviews-section.alt .reviews-score{ background: var(--bg); }
 .review-meta{ display:block; margin-top:10px; font-family:'JetBrains Mono', monospace; font-size:.72rem; letter-spacing:.04em; color:var(--ink-soft); }
 @media (max-width:900px){ .reviews-grid{ grid-template-columns: repeat(2, 1fr); } }
 @media (max-width:560px){ .reviews-grid{ grid-template-columns: 1fr; } }

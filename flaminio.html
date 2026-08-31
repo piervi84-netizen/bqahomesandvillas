@@ -117,7 +117,7 @@
   </div>
 </section>
 
-<section class="section reviews-section">
+<section class="section alt reviews-section">
   <h2 data-i18n="flaminio.reviews.h2">Cosa dicono i nostri ospiti</h2>
   <p class="lede" data-i18n="flaminio.reviews.subtitle">Recensioni vere da Booking.com</p>
 
@@ -269,8 +269,8 @@
     modal.classList.remove("open");
     modal.setAttribute("aria-hidden", "true");
     document.body.style.overflow = "";
-    window.BQA_closeModalA11y();
     window.BQA_setBackgroundInert(modal, false);
+    window.BQA_closeModalA11y();
   }
 
   document.querySelectorAll(".review-card").forEach(function(card){
