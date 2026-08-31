@@ -270,19 +270,20 @@
   </div>
 </section>
 
-<div class="lightbox" id="zona-lightbox" aria-hidden="true">
+<div class="lightbox" id="zona-lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="lightbox-title" aria-describedby="lightbox-counter">
+  <p id="lightbox-title" class="sr-only" data-i18n="trastevere.zona2.lightbox.title">Galleria foto del quartiere</p>
   <div class="lightbox-backdrop" data-lightbox-close></div>
-  <button type="button" class="lightbox-close" data-lightbox-close aria-label="Chiudi">&times;</button>
-  <button type="button" class="lightbox-prev" aria-label="Foto precedente">&#8249;</button>
+  <button type="button" class="lightbox-close" data-lightbox-close data-i18n="modal.close" data-i18n-attr="aria-label" aria-label="Chiudi">&times;</button>
+  <button type="button" class="lightbox-prev" data-i18n="lightbox.prev" data-i18n-attr="aria-label" aria-label="Foto precedente">&#8249;</button>
   <img class="lightbox-img" src="" data-i18n="trastevere.zona2.lightbox.alt" data-i18n-attr="alt" alt="Foto del quartiere di Trastevere, Roma">
-  <button type="button" class="lightbox-next" aria-label="Foto successiva">&#8250;</button>
-  <div class="lightbox-counter"></div>
+  <button type="button" class="lightbox-next" data-i18n="lightbox.next" data-i18n-attr="aria-label" aria-label="Foto successiva">&#8250;</button>
+  <div class="lightbox-counter" id="lightbox-counter"></div>
 </div>
 
 <div class="review-modal" id="review-modal" aria-hidden="true">
   <div class="review-modal-backdrop" data-review-close></div>
-  <div class="review-modal-box">
-    <button type="button" class="review-modal-close" data-review-close aria-label="Chiudi">&times;</button>
+  <div class="review-modal-box" role="dialog" aria-modal="true" aria-labelledby="review-modal-meta" aria-describedby="review-modal-text">
+    <button type="button" class="review-modal-close" data-review-close data-i18n="modal.close" data-i18n-attr="aria-label" aria-label="Chiudi">&times;</button>
     <p class="review-modal-meta" id="review-modal-meta"></p>
     <p class="review-modal-text" id="review-modal-text"></p>
   </div>
@@ -314,11 +315,13 @@
     lb.classList.add("open");
     lb.setAttribute("aria-hidden", "false");
     document.body.style.overflow = "hidden";
+    window.BQA_openModalA11y(lb);
   }
   function close(){
     lb.classList.remove("open");
     lb.setAttribute("aria-hidden", "true");
     document.body.style.overflow = "";
+    window.BQA_closeModalA11y();
   }
 
   document.querySelectorAll(".zona-thumb").forEach(function(btn){
@@ -335,12 +338,14 @@
     if(e.key === "Escape") close();
     if(e.key === "ArrowLeft") show(current - 1);
     if(e.key === "ArrowRight") show(current + 1);
+    window.BQA_trapFocusKeydown(e, lb);
   });
 })();
 </script>
 <script>
 (function(){
   var modal = document.getElementById("review-modal");
+  var modalBox = modal.querySelector(".review-modal-box");
   var modalMeta = document.getElementById("review-modal-meta");
   var modalText = document.getElementById("review-modal-text");
 
@@ -350,11 +355,13 @@
     modal.classList.add("open");
     modal.setAttribute("aria-hidden", "false");
     document.body.style.overflow = "hidden";
+    window.BQA_openModalA11y(modalBox);
   }
   function closeReview(){
     modal.classList.remove("open");
     modal.setAttribute("aria-hidden", "true");
     document.body.style.overflow = "";
+    window.BQA_closeModalA11y();
   }
 
   document.querySelectorAll(".review-card").forEach(function(card){
@@ -364,6 +371,7 @@
   document.addEventListener("keydown", function(e){
     if(!modal.classList.contains("open")) return;
     if(e.key === "Escape") closeReview();
+    window.BQA_trapFocusKeydown(e, modalBox);
   });
 
   document.addEventListener("DOMContentLoaded", function(){

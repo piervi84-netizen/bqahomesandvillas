@@ -30,6 +30,9 @@ const BQA_TRANSLATIONS = {
     "h2.zona": "La zona",
     "specs.upto4": "Fino a 4 ospiti",
     "crib.onrequest": "Culla disponibile su richiesta",
+    "modal.close": "Chiudi",
+    "lightbox.prev": "Foto precedente",
+    "lightbox.next": "Foto successiva",
     "direct.title": "Perché Prenotare Diretto",
     "direct.benefit1": "Zero commissioni OTA — stesso soggiorno, prezzo migliore",
     "direct.benefit2": "Comunicazione diretta con l'host — rispondiamo noi, non un call center",
@@ -94,6 +97,7 @@ const BQA_TRANSLATIONS = {
     "trastevere.zona2.btn": "Vedi altre foto del quartiere",
     "trastevere.zona2.thumb.alt": "Vicoli e scorci di Trastevere, Roma",
     "trastevere.zona2.lightbox.alt": "Foto del quartiere di Trastevere, Roma",
+    "trastevere.zona2.lightbox.title": "Galleria foto del quartiere",
     "reviews.h2": "Cosa dicono i nostri ospiti",
     "reviews.subtitle": "Recensioni vere da Airbnb e Booking.com",
     "reviews.score.value": "4,83",
@@ -232,6 +236,9 @@ const BQA_TRANSLATIONS = {
     "h2.zona": "The area",
     "specs.upto4": "Up to 4 guests",
     "crib.onrequest": "Crib available on request",
+    "modal.close": "Close",
+    "lightbox.prev": "Previous photo",
+    "lightbox.next": "Next photo",
     "direct.title": "Why Book Direct",
     "direct.benefit1": "No OTA commissions — same stay, better price",
     "direct.benefit2": "Direct communication with your host — you talk to us, not a call center",
@@ -296,6 +303,7 @@ const BQA_TRANSLATIONS = {
     "trastevere.zona2.btn": "See more neighborhood photos",
     "trastevere.zona2.thumb.alt": "Alleys and views of Trastevere, Rome",
     "trastevere.zona2.lightbox.alt": "Photo of the Trastevere neighborhood, Rome",
+    "trastevere.zona2.lightbox.title": "Neighborhood photo gallery",
     "reviews.h2": "What our guests say",
     "reviews.subtitle": "Real reviews from Airbnb and Booking.com",
     "reviews.score.value": "4.83",
@@ -474,4 +482,52 @@ const BQA_TRANSLATIONS = {
       });
     });
   });
+})();
+
+/* ============================================================
+   Helper condivisi di accessibilità per i modali (lightbox foto,
+   modale recensioni): focus trap + focus management. Usati da
+   trastevere.html e flaminio.html.
+   ============================================================ */
+(function () {
+  var lastFocused = null;
+
+  function getFocusable(container) {
+    if (!container) return [];
+    return Array.prototype.slice
+      .call(container.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'))
+      .filter(function (el) { return el.offsetParent !== null && !el.disabled; });
+  }
+
+  function openModalA11y(container) {
+    lastFocused = document.activeElement;
+    var focusables = getFocusable(container);
+    if (focusables.length) focusables[0].focus();
+  }
+
+  function closeModalA11y() {
+    if (lastFocused && typeof lastFocused.focus === "function") {
+      lastFocused.focus();
+    }
+    lastFocused = null;
+  }
+
+  function trapFocusKeydown(e, container) {
+    if (e.key !== "Tab") return;
+    var focusables = getFocusable(container);
+    if (!focusables.length) return;
+    var first = focusables[0];
+    var last = focusables[focusables.length - 1];
+    if (e.shiftKey && document.activeElement === first) {
+      e.preventDefault();
+      last.focus();
+    } else if (!e.shiftKey && document.activeElement === last) {
+      e.preventDefault();
+      first.focus();
+    }
+  }
+
+  window.BQA_openModalA11y = openModalA11y;
+  window.BQA_closeModalA11y = closeModalA11y;
+  window.BQA_trapFocusKeydown = trapFocusKeydown;
 })();
