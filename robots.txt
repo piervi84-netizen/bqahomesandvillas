@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://piervi84-netizen.github.io/bqahomesandvillas/sitemap.xml
+Sitemap: https://bqahomesandvillas.com/sitemap.xml
