@@ -33,6 +33,31 @@ const BQA_TRANSLATIONS = {
     "modal.close": "Chiudi",
     "lightbox.prev": "Foto precedente",
     "lightbox.next": "Foto successiva",
+    "faq.h2": "Domande Frequenti",
+    "faq.checkin.q": "Come funziona il check-in?",
+    "faq.checkin.a": "L'accesso è autonomo tramite self check-in, con istruzioni chiare inviate prima del vostro arrivo. Questo non significa essere soli: siamo pienamente disponibili a distanza 24/7 per qualsiasi necessità.",
+    "faq.breakfast.q": "La colazione è inclusa?",
+    "faq.breakfast.a": "No, la colazione non è inclusa nel soggiorno.",
+    "faq.cancellation.q": "Qual è la politica di cancellazione?",
+    "faq.cancellation.a": "Offriamo una tariffa flessibile con cancellazione gratuita fino a 5 giorni prima dell'arrivo (50% del costo se si cancella nei 5 giorni precedenti, importo totale in caso di mancata presentazione), oppure una tariffa non rimborsabile a prezzo scontato.",
+    "faq.bookdirect.q": "Come si prenota direttamente con voi?",
+    "faq.bookdirect.a": "Potete scriverci su WhatsApp o via email — trovate i contatti in fondo alla pagina. Rispondiamo rapidamente e vi guidiamo attraverso tutto il processo.",
+    "faq.crib.q": "È disponibile una culla per neonati?",
+    "faq.crib.a": "Sì, disponibile gratuitamente su richiesta.",
+    "faq.restaurant.q": "C'è il ristorante?",
+    "faq.restaurant.a": "No, non abbiamo un ristorante interno, ma siamo circondati da ottimi locali nelle vicinanze.",
+    "faq.spa.q": "C'è la spa/centro benessere?",
+    "faq.spa.a": "No, non disponiamo di spa o centro benessere.",
+    "faq.gym.q": "C'è una palestra?",
+    "faq.gym.a": "No, non disponiamo di una sala fitness.",
+    "faq.shuttle.q": "C'è il servizio navetta aeroportuale?",
+    "faq.shuttle.a": "No, non offriamo il servizio navetta aeroportuale.",
+    "faq.wifi.q": "Che WiFi c'è?",
+    "faq.wifi.a": "WiFi veloce gratuito, 220 Mbps — adatto per streaming 4K e videochiamate su più dispositivi.",
+    "faq.parking.ztl.q": "C'è il parcheggio?",
+    "faq.parking.ztl.a": "Non c'è un parcheggio dedicato: la zona è a traffico limitato (ZTL), ma trovate parcheggi pubblici a pagamento nelle vicinanze.",
+    "faq.pets.no.q": "Sono ammessi animali domestici?",
+    "faq.pets.no.a": "Non sono ammessi animali domestici.",
     "direct.title": "Perché Prenotare Diretto",
     "direct.benefit1": "Zero commissioni OTA — stesso soggiorno, prezzo migliore",
     "direct.benefit2": "Comunicazione diretta con l'host — rispondiamo noi, non un call center",
@@ -141,6 +166,8 @@ const BQA_TRANSLATIONS = {
     "book.wa": "https://wa.me/393892570302?text=Ciao%2C%20vorrei%20informazioni%20su%20BQA%20San%20Crisogono%20Apartments%20Rome-Trastevere",
     "trastevere.book.mail": "mailto:bqaboutiquehomesandvillas@gmail.com?subject=Richiesta%20disponibilit%C3%A0%20-%20BQA%20San%20Crisogono%20Apartments%20Rome-Trastevere",
     "trastevere.crosslinks": "Scopri anche le nostre altre strutture: <a href=\"flaminio.html\">BQA Fracassini Rooms Rome-Flaminio</a> · <a href=\"masseriola.html\">BQA La Masseriola Private Villa-Trullo</a>",
+    "trastevere.faq.elevator.q": "L'appartamento ha l'ascensore?",
+    "trastevere.faq.elevator.a": "No, l'appartamento si trova al secondo piano senza ascensore.",
 
     // ---------- flaminio.html ----------
     "flaminio.meta": "B&B boutique nel quartiere Flaminio, Roma, a 10 minuti da Piazza del Popolo. Tre tipologie di camera, bagno privato, aria condizionata. Prenota direttamente con BQA Homes and Villas.",
@@ -204,6 +231,8 @@ const BQA_TRANSLATIONS = {
     "flaminio.book.wa": "https://wa.me/393892570302?text=Ciao%2C%20vorrei%20informazioni%20su%20BQA%20Fracassini%20Rooms%20Rome-Flaminio",
     "flaminio.book.mail": "mailto:bqaboutiquehomesandvillas@gmail.com?subject=Richiesta%20disponibilit%C3%A0%20-%20BQA%20Fracassini%20Rooms%20Rome-Flaminio",
     "flaminio.crosslinks": "Scopri anche le nostre altre strutture: <a href=\"trastevere.html\">BQA San Crisogono Apartments Rome-Trastevere</a> · <a href=\"masseriola.html\">BQA La Masseriola Private Villa-Trullo</a>",
+    "flaminio.faq.elevator.q": "C'è l'ascensore?",
+    "flaminio.faq.elevator.a": "Sì, l'edificio è dotato di ascensore.",
 
     // ---------- masseriola.html ----------
     "masseriola.meta": "Trullo con piscina privata a Castellana Grotte, Puglia. Fino a 4 ospiti (+1 su richiesta), 2 camere, giardino e barbecue. Prenota direttamente con BQA Homes and Villas.",
@@ -229,7 +258,11 @@ const BQA_TRANSLATIONS = {
     "masseriola.book.p": "Scrivici su WhatsApp o via email con le date del tuo soggiorno: ti confermiamo la disponibilità e i dettagli per il pagamento.",
     "masseriola.book.wa": "https://wa.me/393892570302?text=Ciao%2C%20vorrei%20informazioni%20su%20BQA%20La%20Masseriola%20Private%20Villa-Trullo",
     "masseriola.book.mail": "mailto:bqaboutiquehomesandvillas@gmail.com?subject=Richiesta%20disponibilit%C3%A0%20-%20BQA%20La%20Masseriola%20Private%20Villa-Trullo",
-    "masseriola.crosslinks": "Scopri anche le nostre altre strutture: <a href=\"trastevere.html\">BQA San Crisogono Apartments Rome-Trastevere</a> · <a href=\"flaminio.html\">BQA Fracassini Rooms Rome-Flaminio</a>"
+    "masseriola.crosslinks": "Scopri anche le nostre altre strutture: <a href=\"trastevere.html\">BQA San Crisogono Apartments Rome-Trastevere</a> · <a href=\"flaminio.html\">BQA Fracassini Rooms Rome-Flaminio</a>",
+    "masseriola.faq.parking.q": "C'è il parcheggio?",
+    "masseriola.faq.parking.a": "Sì, parcheggio privato gratuito disponibile.",
+    "masseriola.faq.pets.q": "Sono ammessi animali domestici?",
+    "masseriola.faq.pets.a": "Sì, con possibile supplemento — contattateci per i dettagli."
   },
 
   en: {
@@ -253,6 +286,31 @@ const BQA_TRANSLATIONS = {
     "modal.close": "Close",
     "lightbox.prev": "Previous photo",
     "lightbox.next": "Next photo",
+    "faq.h2": "Frequently Asked Questions",
+    "faq.checkin.q": "How does check-in work?",
+    "faq.checkin.a": "Check-in is self-service, with clear instructions sent before your arrival. This doesn't mean you're on your own: we're fully available remotely 24/7 for anything you need.",
+    "faq.breakfast.q": "Is breakfast included?",
+    "faq.breakfast.a": "No, breakfast is not included in your stay.",
+    "faq.cancellation.q": "What's the cancellation policy?",
+    "faq.cancellation.a": "We offer a flexible rate with free cancellation up to 5 days before arrival (50% of the cost if cancelled within 5 days of arrival, full amount for no-shows), or a discounted non-refundable rate.",
+    "faq.bookdirect.q": "How do I book directly with you?",
+    "faq.bookdirect.a": "You can message us on WhatsApp or by email — you'll find our contacts at the bottom of the page. We reply quickly and guide you through the whole process.",
+    "faq.crib.q": "Is a crib available for infants?",
+    "faq.crib.a": "Yes, available free of charge on request.",
+    "faq.restaurant.q": "Is there a restaurant?",
+    "faq.restaurant.a": "No, we don't have an on-site restaurant, but we're surrounded by great places to eat nearby.",
+    "faq.spa.q": "Is there a spa/wellness center?",
+    "faq.spa.a": "No, we don't have a spa or wellness center.",
+    "faq.gym.q": "Is there a gym?",
+    "faq.gym.a": "No, we don't have a fitness room.",
+    "faq.shuttle.q": "Is there an airport shuttle service?",
+    "faq.shuttle.a": "No, we don't offer an airport shuttle service.",
+    "faq.wifi.q": "What WiFi is available?",
+    "faq.wifi.a": "Free fast WiFi, 220 Mbps — great for 4K streaming and video calls on multiple devices.",
+    "faq.parking.ztl.q": "Is there parking?",
+    "faq.parking.ztl.a": "There's no dedicated parking: the area is a restricted traffic zone (ZTL), but you'll find paid public parking nearby.",
+    "faq.pets.no.q": "Are pets allowed?",
+    "faq.pets.no.a": "Pets are not allowed.",
     "direct.title": "Why Book Direct",
     "direct.benefit1": "No OTA commissions — same stay, better price",
     "direct.benefit2": "Direct communication with your host — you talk to us, not a call center",
@@ -361,6 +419,8 @@ const BQA_TRANSLATIONS = {
     "book.wa": "https://wa.me/393892570302?text=Hi%2C%20I%27d%20like%20information%20about%20BQA%20San%20Crisogono%20Apartments%20Rome-Trastevere",
     "trastevere.book.mail": "mailto:bqaboutiquehomesandvillas@gmail.com?subject=Availability%20request%20-%20BQA%20San%20Crisogono%20Apartments%20Rome-Trastevere",
     "trastevere.crosslinks": "Discover our other properties too: <a href=\"flaminio.html\">BQA Fracassini Rooms Rome-Flaminio</a> · <a href=\"masseriola.html\">BQA La Masseriola Private Villa-Trullo</a>",
+    "trastevere.faq.elevator.q": "Is there an elevator?",
+    "trastevere.faq.elevator.a": "No, the apartment is on the 2nd floor with no elevator.",
 
     // ---------- flaminio.html ----------
     "flaminio.meta": "Boutique B&B in the Flaminio neighborhood, Rome, a 10-minute walk from Piazza del Popolo. Three room types, private bathroom, air conditioning. Book directly with BQA Homes and Villas.",
@@ -424,6 +484,8 @@ const BQA_TRANSLATIONS = {
     "flaminio.book.wa": "https://wa.me/393892570302?text=Hi%2C%20I%27d%20like%20information%20about%20BQA%20Fracassini%20Rooms%20Rome-Flaminio",
     "flaminio.book.mail": "mailto:bqaboutiquehomesandvillas@gmail.com?subject=Availability%20request%20-%20BQA%20Fracassini%20Rooms%20Rome-Flaminio",
     "flaminio.crosslinks": "Discover our other properties too: <a href=\"trastevere.html\">BQA San Crisogono Apartments Rome-Trastevere</a> · <a href=\"masseriola.html\">BQA La Masseriola Private Villa-Trullo</a>",
+    "flaminio.faq.elevator.q": "Is there an elevator?",
+    "flaminio.faq.elevator.a": "Yes, the building has an elevator.",
 
     // ---------- masseriola.html ----------
     "masseriola.meta": "Trullo with private pool in Castellana Grotte, Puglia. Up to 4 guests (+1 on request), 2 bedrooms, garden and barbecue. Book directly with BQA Homes and Villas.",
@@ -449,7 +511,11 @@ const BQA_TRANSLATIONS = {
     "masseriola.book.p": "Message us on WhatsApp or by email with your stay dates: we'll confirm availability and payment details.",
     "masseriola.book.wa": "https://wa.me/393892570302?text=Hi%2C%20I%27d%20like%20information%20about%20BQA%20La%20Masseriola%20Private%20Villa-Trullo",
     "masseriola.book.mail": "mailto:bqaboutiquehomesandvillas@gmail.com?subject=Availability%20request%20-%20BQA%20La%20Masseriola%20Private%20Villa-Trullo",
-    "masseriola.crosslinks": "Discover our other properties too: <a href=\"trastevere.html\">BQA San Crisogono Apartments Rome-Trastevere</a> · <a href=\"flaminio.html\">BQA Fracassini Rooms Rome-Flaminio</a>"
+    "masseriola.crosslinks": "Discover our other properties too: <a href=\"trastevere.html\">BQA San Crisogono Apartments Rome-Trastevere</a> · <a href=\"flaminio.html\">BQA Fracassini Rooms Rome-Flaminio</a>",
+    "masseriola.faq.parking.q": "Is there parking?",
+    "masseriola.faq.parking.a": "Yes, free private parking is available.",
+    "masseriola.faq.pets.q": "Are pets allowed?",
+    "masseriola.faq.pets.a": "Yes, with a possible supplement — contact us for details."
   }
 };
 
@@ -572,4 +638,23 @@ const BQA_TRANSLATIONS = {
   window.BQA_closeModalA11y = closeModalA11y;
   window.BQA_trapFocusKeydown = trapFocusKeydown;
   window.BQA_setBackgroundInert = setBackgroundInert;
+})();
+
+/* ============================================================
+   Helper condiviso per l'accordion FAQ (trastevere/flaminio/masseriola).
+   ============================================================ */
+(function () {
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".faq-question").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var expanded = btn.getAttribute("aria-expanded") === "true";
+        var panel = document.getElementById(btn.getAttribute("aria-controls"));
+        btn.setAttribute("aria-expanded", String(!expanded));
+        if (panel) {
+          panel.classList.toggle("open", !expanded);
+          panel.setAttribute("aria-hidden", String(expanded));
+        }
+      });
+    });
+  });
 })();
