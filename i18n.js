@@ -15,6 +15,7 @@ const BQA_TRANSLATIONS = {
   it: {
     // ---------- Condivisi tra le pagine ----------
     "nav.strutture": "Strutture",
+    "nav.faq": "FAQ",
     "nav.contatti": "Contatti",
     "map.view": "Vedi su mappa",
     "avail.title": "Disponibilità",
@@ -34,6 +35,8 @@ const BQA_TRANSLATIONS = {
     "lightbox.prev": "Foto precedente",
     "lightbox.next": "Foto successiva",
     "faq.h2": "Domande Frequenti",
+    "faq.seeall": "Vedi tutte le domande frequenti",
+    "faq.lede": "Le risposte alle domande più comuni sui nostri soggiorni. Non trovi quello che cerchi? Scrivici, siamo sempre disponibili.",
     "faq.checkin.q": "Come funziona il check-in?",
     "faq.checkin.a": "L'accesso è autonomo tramite self check-in, con istruzioni chiare inviate prima del vostro arrivo. Questo non significa essere soli: siamo pienamente disponibili a distanza 24/7 per qualsiasi necessità.",
     "faq.breakfast.q": "La colazione è inclusa?",
@@ -58,6 +61,9 @@ const BQA_TRANSLATIONS = {
     "faq.parking.ztl.a": "Non c'è un parcheggio dedicato: la zona è a traffico limitato (ZTL), ma trovate parcheggi pubblici a pagamento nelle vicinanze.",
     "faq.pets.no.q": "Sono ammessi animali domestici?",
     "faq.pets.no.a": "Non sono ammessi animali domestici.",
+    "faq.section.general": "Domande generali",
+    "faq.page.title": "Domande Frequenti | BQA Homes and Villas",
+    "faq.page.meta": "Tutte le risposte alle domande più frequenti su check-in, cancellazioni, parcheggio, animali e servizi delle strutture BQA Homes and Villas a Roma e in Puglia.",
     "direct.title": "Perché Prenotare Diretto",
     "direct.benefit1": "Zero commissioni OTA — stesso soggiorno, prezzo migliore",
     "direct.benefit2": "Comunicazione diretta con l'host — rispondiamo noi, non un call center",
@@ -268,6 +274,7 @@ const BQA_TRANSLATIONS = {
   en: {
     // ---------- Shared across pages ----------
     "nav.strutture": "Stays",
+    "nav.faq": "FAQ",
     "nav.contatti": "Contact",
     "map.view": "View on map",
     "avail.title": "Availability",
@@ -287,6 +294,8 @@ const BQA_TRANSLATIONS = {
     "lightbox.prev": "Previous photo",
     "lightbox.next": "Next photo",
     "faq.h2": "Frequently Asked Questions",
+    "faq.seeall": "See all FAQs",
+    "faq.lede": "Answers to the most common questions about our stays. Can't find what you're looking for? Message us, we're always available.",
     "faq.checkin.q": "How does check-in work?",
     "faq.checkin.a": "Check-in is self-service, with clear instructions sent before your arrival. This doesn't mean you're on your own: we're fully available remotely 24/7 for anything you need.",
     "faq.breakfast.q": "Is breakfast included?",
@@ -311,6 +320,9 @@ const BQA_TRANSLATIONS = {
     "faq.parking.ztl.a": "There's no dedicated parking: the area is a restricted traffic zone (ZTL), but you'll find paid public parking nearby.",
     "faq.pets.no.q": "Are pets allowed?",
     "faq.pets.no.a": "Pets are not allowed.",
+    "faq.section.general": "General questions",
+    "faq.page.title": "Frequently Asked Questions | BQA Homes and Villas",
+    "faq.page.meta": "All the answers to the most frequently asked questions about check-in, cancellations, parking, pets and amenities at BQA Homes and Villas properties in Rome and Puglia.",
     "direct.title": "Why Book Direct",
     "direct.benefit1": "No OTA commissions — same stay, better price",
     "direct.benefit2": "Direct communication with your host — you talk to us, not a call center",

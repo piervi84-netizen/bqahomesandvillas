@@ -155,6 +155,8 @@ ul.points li::before{ content:"—"; color:var(--terracotta); font-weight:700; }
 .btn-primary:hover{ background:#dcae4a; }
 .btn-outline{ border-color: rgba(242,237,228,0.4); color: var(--bg); }
 .btn-outline:hover{ border-color: var(--bg); }
+.btn-outline-dark{ border-color: var(--line); color: var(--ink); }
+.btn-outline-dark:hover{ border-color: var(--terracotta); color: var(--terracotta); }
 
 .bank-box{
   margin-top:18px; padding:16px 18px; border-radius:12px;
