@@ -52,7 +52,6 @@ const BQA_TRANSLATIONS = {
     "index.tag.flaminio.loc": "Flaminio · Roma",
     "index.tag.flaminio.desc": "Camere boutique con bagno e cucina privati, a 10 minuti a piedi da Piazza del Popolo.",
     "index.tag.flaminio.spec1": "3 tipologie camera",
-    "index.tag.flaminio.spec2": "Colazione inclusa",
     "index.tag.masseriola.desc": "Trullo con piscina privata, giardino e barbecue, immerso nella campagna pugliese.",
     "index.tag.masseriola.spec1": "Fino a 4+1 ospiti",
     "index.tag.masseriola.spec2": "Piscina privata",
@@ -75,7 +74,7 @@ const BQA_TRANSLATIONS = {
     "index.reviews.robyn.quote": "\"Guido è stato super disponibile. Ottima posizione per esplorare Trastevere a piedi.\"",
 
     // ---------- trastevere.html ----------
-    "trastevere.meta": "Storico appartamento di 80 mq nel cuore di Trastevere, Roma. Fino a 4 ospiti, cucina attrezzata, aria condizionata, WiFi veloce, colazione inclusa. Prenota direttamente con BQA Homes and Villas.",
+    "trastevere.meta": "Storico appartamento di 80 mq nel cuore di Trastevere, Roma. Fino a 4 ospiti, cucina attrezzata, aria condizionata, WiFi veloce. Prenota direttamente con BQA Homes and Villas.",
     "trastevere.hero.loc": "Trastevere · Roma",
     "trastevere.hero.lede": "Cerchi un appartamento a Trastevere per il tuo soggiorno a Roma? Storico appartamento di 80 mq nel cuore di Trastevere: pavimenti in cotto ottocentesco, travi a vista e tutti i comfort moderni, a due passi da vicoli e trattorie autentiche.",
     "trastevere.mainphoto.alt": "Il soggiorno di BQA San Crisogono Apartments Rome-Trastevere",
@@ -85,7 +84,7 @@ const BQA_TRANSLATIONS = {
     "trastevere.struttura.p5": "Bagno con doccia in pietra, bidet e balcone privato accessibile direttamente",
     "trastevere.struttura.p6": "Postazione di lavoro con PC desktop e WiFi ad alta velocità",
     "trastevere.struttura.p7": "Aria condizionata e riscaldamento in ogni ambiente",
-    "trastevere.struttura.p8": "Colazione inclusa e welcome kit da bagno",
+    "trastevere.struttura.p8": "Welcome kit da bagno",
     "trastevere.struttura.p10": "Check-in autonomo (self check-in), assistenza 24/7 via telefono, SMS o email",
     "trastevere.zona.p1": "A 450 m da Piazza di Santa Maria in Trastevere, cuore della vita del quartiere",
     "trastevere.zona.p2": "Campo de' Fiori e Largo di Torre Argentina a circa 1,1 km",
@@ -136,7 +135,7 @@ const BQA_TRANSLATIONS = {
     "trastevere.book.mail": "mailto:bqaboutiquehomesandvillas@gmail.com?subject=Richiesta%20disponibilit%C3%A0%20-%20BQA%20San%20Crisogono%20Apartments%20Rome-Trastevere",
 
     // ---------- flaminio.html ----------
-    "flaminio.meta": "B&B boutique nel quartiere Flaminio, Roma, a 10 minuti da Piazza del Popolo. Tre tipologie di camera, bagno privato, aria condizionata, colazione italiana inclusa. Prenota direttamente con BQA Homes and Villas.",
+    "flaminio.meta": "B&B boutique nel quartiere Flaminio, Roma, a 10 minuti da Piazza del Popolo. Tre tipologie di camera, bagno privato, aria condizionata. Prenota direttamente con BQA Homes and Villas.",
     "flaminio.hero.loc": "Flaminio · Roma",
     "flaminio.hero.lede": "Cerchi una stanza vicino allo Stadio Olimpico, nel quartiere Flaminio? Boutique B&B nel quartiere Flaminio: tre tipologie di camera con bagno e cucina a uso privato, a due passi da Piazza del Popolo e Stadio Olimpico.",
     "flaminio.mainphoto.alt": "Vista di BQA Fracassini Rooms Rome-Flaminio",
@@ -147,7 +146,6 @@ const BQA_TRANSLATIONS = {
     "flaminio.camere.p4": "Aria condizionata, Smart TV e WiFi gratuito in ogni camera",
     "flaminio.camere.p5": "Bagno privato in camera, bollitore e macchina da caffè",
     "flaminio.camere.p6": "Cucina completamente attrezzata (frigorifero, forno, microonde, piano cottura) e lavatrice",
-    "flaminio.camere.p7": "Colazione italiana o vegetariana inclusa",
     "flaminio.camere.p8": "Culla disponibile su richiesta, gratuita",
     "flaminio.zona.p1": "A 10 minuti a piedi da Piazza del Popolo",
     "flaminio.zona.p2": "Stadio Olimpico e Auditorium Parco della Musica raggiungibili a piedi",
@@ -264,7 +262,6 @@ const BQA_TRANSLATIONS = {
     "index.tag.flaminio.loc": "Flaminio · Rome",
     "index.tag.flaminio.desc": "Boutique rooms with private bathroom and kitchen, a 10-minute walk from Piazza del Popolo.",
     "index.tag.flaminio.spec1": "3 room types",
-    "index.tag.flaminio.spec2": "Breakfast included",
     "index.tag.masseriola.desc": "Trullo with private pool, garden and barbecue, set in the Apulian countryside.",
     "index.tag.masseriola.spec1": "Up to 4+1 guests",
     "index.tag.masseriola.spec2": "Private pool",
@@ -287,7 +284,7 @@ const BQA_TRANSLATIONS = {
     "index.reviews.robyn.quote": "\"Guido was super responsive. Great location to explore Trastevere on foot.\"",
 
     // ---------- trastevere.html ----------
-    "trastevere.meta": "Historic 80 sqm apartment in the heart of Trastevere, Rome. Up to 4 guests, fully equipped kitchen, air conditioning, fast WiFi, breakfast included. Book directly with BQA Homes and Villas.",
+    "trastevere.meta": "Historic 80 sqm apartment in the heart of Trastevere, Rome. Up to 4 guests, fully equipped kitchen, air conditioning, fast WiFi. Book directly with BQA Homes and Villas.",
     "trastevere.hero.loc": "Trastevere · Rome",
     "trastevere.hero.lede": "Looking for an apartment in Trastevere for your stay in Rome? Historic 80 sqm apartment in the heart of Trastevere: 19th-century terracotta floors, exposed beams and every modern comfort, steps away from authentic alleys and trattorias.",
     "trastevere.mainphoto.alt": "The living room of BQA San Crisogono Apartments Rome-Trastevere",
@@ -297,7 +294,7 @@ const BQA_TRANSLATIONS = {
     "trastevere.struttura.p5": "Bathroom with stone shower, bidet and direct access to a private balcony",
     "trastevere.struttura.p6": "Workstation with desktop PC and high-speed WiFi",
     "trastevere.struttura.p7": "Air conditioning and heating throughout",
-    "trastevere.struttura.p8": "Breakfast included and bathroom welcome kit",
+    "trastevere.struttura.p8": "Bathroom welcome kit",
     "trastevere.struttura.p10": "Self check-in, 24/7 support by phone, SMS or email",
     "trastevere.zona.p1": "450 m from Piazza di Santa Maria in Trastevere, the heart of the neighborhood",
     "trastevere.zona.p2": "Campo de' Fiori and Largo di Torre Argentina about 1.1 km away",
@@ -348,7 +345,7 @@ const BQA_TRANSLATIONS = {
     "trastevere.book.mail": "mailto:bqaboutiquehomesandvillas@gmail.com?subject=Availability%20request%20-%20BQA%20San%20Crisogono%20Apartments%20Rome-Trastevere",
 
     // ---------- flaminio.html ----------
-    "flaminio.meta": "Boutique B&B in the Flaminio neighborhood, Rome, a 10-minute walk from Piazza del Popolo. Three room types, private bathroom, air conditioning, Italian breakfast included. Book directly with BQA Homes and Villas.",
+    "flaminio.meta": "Boutique B&B in the Flaminio neighborhood, Rome, a 10-minute walk from Piazza del Popolo. Three room types, private bathroom, air conditioning. Book directly with BQA Homes and Villas.",
     "flaminio.hero.loc": "Flaminio · Rome",
     "flaminio.hero.lede": "Looking for a room near the Stadio Olimpico, in the Flaminio neighborhood? Boutique B&B in Flaminio: three room types with private bathroom and kitchen, steps from Piazza del Popolo and the Stadio Olimpico.",
     "flaminio.mainphoto.alt": "View of BQA Fracassini Rooms Rome-Flaminio",
@@ -359,7 +356,6 @@ const BQA_TRANSLATIONS = {
     "flaminio.camere.p4": "Air conditioning, Smart TV and free WiFi in every room",
     "flaminio.camere.p5": "Private en-suite bathroom, kettle and coffee machine",
     "flaminio.camere.p6": "Fully equipped kitchen (fridge, oven, microwave, stovetop) and washing machine",
-    "flaminio.camere.p7": "Italian or vegetarian breakfast included",
     "flaminio.camere.p8": "Free crib available on request",
     "flaminio.zona.p1": "A 10-minute walk from Piazza del Popolo",
     "flaminio.zona.p2": "Stadio Olimpico and Auditorium Parco della Musica within walking distance",
