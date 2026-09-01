@@ -48,13 +48,20 @@ const BQA_TRANSLATIONS = {
     "index.hero.lede": "Indirizzi curati da BQA a Roma e in Puglia. Prenota direttamente con noi, senza intermediari.",
     "index.tag.trastevere.loc": "Trastevere · Roma",
     "index.tag.trastevere.desc": "Storico appartamento di 80 mq nel cuore di Trastevere, con cucina attrezzata e balcone privato.",
-    "index.tag.trastevere.spec2": "Balcone privato",
+    "index.tag.trastevere.spec2": "Aria condizionata",
+    "index.tag.trastevere.spec3": "Centro storico a piedi",
+    "index.tag.trastevere.spec4": "Cucina completa",
     "index.tag.flaminio.loc": "Flaminio · Roma",
     "index.tag.flaminio.desc": "Camere boutique con bagno e cucina privati, a 10 minuti a piedi da Piazza del Popolo.",
     "index.tag.flaminio.spec1": "3 tipologie camera",
+    "index.tag.flaminio.spec2": "Aria condizionata",
+    "index.tag.flaminio.spec3": "Non fumatori",
+    "index.tag.flaminio.spec4": "Ascensore",
     "index.tag.masseriola.desc": "Trullo con piscina privata, giardino e barbecue, immerso nella campagna pugliese.",
     "index.tag.masseriola.spec1": "Fino a 4+1 ospiti",
     "index.tag.masseriola.spec2": "Piscina privata",
+    "index.tag.masseriola.spec3": "Giardino",
+    "index.tag.masseriola.spec4": "Parcheggio gratuito",
     "index.about.eyebrow": "Chi siamo",
     "index.about.lede": "Curiamo ogni dettaglio del soggiorno, dalla pulizia impeccabile al check-in autonomo pensato per un arrivo senza pensieri.",
     "index.about.p1": "Standard elevati di igiene e comfort, verificati prima di ogni arrivo",
@@ -133,6 +140,7 @@ const BQA_TRANSLATIONS = {
     "trastevere.book.p": "Scrivici su WhatsApp o via email con le date che ti interessano: ti confermiamo la disponibilità e ti indichiamo come completare il pagamento.",
     "book.wa": "https://wa.me/393892570302?text=Ciao%2C%20vorrei%20informazioni%20su%20BQA%20San%20Crisogono%20Apartments%20Rome-Trastevere",
     "trastevere.book.mail": "mailto:bqaboutiquehomesandvillas@gmail.com?subject=Richiesta%20disponibilit%C3%A0%20-%20BQA%20San%20Crisogono%20Apartments%20Rome-Trastevere",
+    "trastevere.crosslinks": "Scopri anche le nostre altre strutture: <a href=\"flaminio.html\">BQA Fracassini Rooms Rome-Flaminio</a> · <a href=\"masseriola.html\">BQA La Masseriola Private Villa-Trullo</a>",
 
     // ---------- flaminio.html ----------
     "flaminio.meta": "B&B boutique nel quartiere Flaminio, Roma, a 10 minuti da Piazza del Popolo. Tre tipologie di camera, bagno privato, aria condizionata. Prenota direttamente con BQA Homes and Villas.",
@@ -195,6 +203,7 @@ const BQA_TRANSLATIONS = {
     "flaminio.book.p": "Scrivici su WhatsApp o via email indicando date e tipologia di camera che preferisci: ti confermiamo la disponibilità e i dettagli per il pagamento.",
     "flaminio.book.wa": "https://wa.me/393892570302?text=Ciao%2C%20vorrei%20informazioni%20su%20BQA%20Fracassini%20Rooms%20Rome-Flaminio",
     "flaminio.book.mail": "mailto:bqaboutiquehomesandvillas@gmail.com?subject=Richiesta%20disponibilit%C3%A0%20-%20BQA%20Fracassini%20Rooms%20Rome-Flaminio",
+    "flaminio.crosslinks": "Scopri anche le nostre altre strutture: <a href=\"trastevere.html\">BQA San Crisogono Apartments Rome-Trastevere</a> · <a href=\"masseriola.html\">BQA La Masseriola Private Villa-Trullo</a>",
 
     // ---------- masseriola.html ----------
     "masseriola.meta": "Trullo con piscina privata a Castellana Grotte, Puglia. Fino a 4 ospiti (+1 su richiesta), 2 camere, giardino e barbecue. Prenota direttamente con BQA Homes and Villas.",
@@ -219,7 +228,8 @@ const BQA_TRANSLATIONS = {
     "masseriola.book.h2": "Prenota BQA La Masseriola Private Villa-Trullo",
     "masseriola.book.p": "Scrivici su WhatsApp o via email con le date del tuo soggiorno: ti confermiamo la disponibilità e i dettagli per il pagamento.",
     "masseriola.book.wa": "https://wa.me/393892570302?text=Ciao%2C%20vorrei%20informazioni%20su%20BQA%20La%20Masseriola%20Private%20Villa-Trullo",
-    "masseriola.book.mail": "mailto:bqaboutiquehomesandvillas@gmail.com?subject=Richiesta%20disponibilit%C3%A0%20-%20BQA%20La%20Masseriola%20Private%20Villa-Trullo"
+    "masseriola.book.mail": "mailto:bqaboutiquehomesandvillas@gmail.com?subject=Richiesta%20disponibilit%C3%A0%20-%20BQA%20La%20Masseriola%20Private%20Villa-Trullo",
+    "masseriola.crosslinks": "Scopri anche le nostre altre strutture: <a href=\"trastevere.html\">BQA San Crisogono Apartments Rome-Trastevere</a> · <a href=\"flaminio.html\">BQA Fracassini Rooms Rome-Flaminio</a>"
   },
 
   en: {
@@ -258,13 +268,20 @@ const BQA_TRANSLATIONS = {
     "index.hero.lede": "Addresses curated by BQA in Rome and Puglia. Book directly with us, no middlemen.",
     "index.tag.trastevere.loc": "Trastevere · Rome",
     "index.tag.trastevere.desc": "Historic 80 sqm apartment in the heart of Trastevere, with a fully equipped kitchen and private balcony.",
-    "index.tag.trastevere.spec2": "Private balcony",
+    "index.tag.trastevere.spec2": "Air conditioning",
+    "index.tag.trastevere.spec3": "Historic center on foot",
+    "index.tag.trastevere.spec4": "Full kitchen",
     "index.tag.flaminio.loc": "Flaminio · Rome",
     "index.tag.flaminio.desc": "Boutique rooms with private bathroom and kitchen, a 10-minute walk from Piazza del Popolo.",
     "index.tag.flaminio.spec1": "3 room types",
+    "index.tag.flaminio.spec2": "Air conditioning",
+    "index.tag.flaminio.spec3": "Non-smoking",
+    "index.tag.flaminio.spec4": "Elevator",
     "index.tag.masseriola.desc": "Trullo with private pool, garden and barbecue, set in the Apulian countryside.",
     "index.tag.masseriola.spec1": "Up to 4+1 guests",
     "index.tag.masseriola.spec2": "Private pool",
+    "index.tag.masseriola.spec3": "Garden",
+    "index.tag.masseriola.spec4": "Free parking",
     "index.about.eyebrow": "About us",
     "index.about.lede": "We take care of every detail of your stay, from spotless cleaning to self check-in designed for a worry-free arrival.",
     "index.about.p1": "High standards of hygiene and comfort, checked before every arrival",
@@ -343,6 +360,7 @@ const BQA_TRANSLATIONS = {
     "trastevere.book.p": "Message us on WhatsApp or by email with the dates you're interested in: we'll confirm availability and let you know how to complete payment.",
     "book.wa": "https://wa.me/393892570302?text=Hi%2C%20I%27d%20like%20information%20about%20BQA%20San%20Crisogono%20Apartments%20Rome-Trastevere",
     "trastevere.book.mail": "mailto:bqaboutiquehomesandvillas@gmail.com?subject=Availability%20request%20-%20BQA%20San%20Crisogono%20Apartments%20Rome-Trastevere",
+    "trastevere.crosslinks": "Discover our other properties too: <a href=\"flaminio.html\">BQA Fracassini Rooms Rome-Flaminio</a> · <a href=\"masseriola.html\">BQA La Masseriola Private Villa-Trullo</a>",
 
     // ---------- flaminio.html ----------
     "flaminio.meta": "Boutique B&B in the Flaminio neighborhood, Rome, a 10-minute walk from Piazza del Popolo. Three room types, private bathroom, air conditioning. Book directly with BQA Homes and Villas.",
@@ -405,6 +423,7 @@ const BQA_TRANSLATIONS = {
     "flaminio.book.p": "Message us on WhatsApp or by email with your preferred dates and room type: we'll confirm availability and payment details.",
     "flaminio.book.wa": "https://wa.me/393892570302?text=Hi%2C%20I%27d%20like%20information%20about%20BQA%20Fracassini%20Rooms%20Rome-Flaminio",
     "flaminio.book.mail": "mailto:bqaboutiquehomesandvillas@gmail.com?subject=Availability%20request%20-%20BQA%20Fracassini%20Rooms%20Rome-Flaminio",
+    "flaminio.crosslinks": "Discover our other properties too: <a href=\"trastevere.html\">BQA San Crisogono Apartments Rome-Trastevere</a> · <a href=\"masseriola.html\">BQA La Masseriola Private Villa-Trullo</a>",
 
     // ---------- masseriola.html ----------
     "masseriola.meta": "Trullo with private pool in Castellana Grotte, Puglia. Up to 4 guests (+1 on request), 2 bedrooms, garden and barbecue. Book directly with BQA Homes and Villas.",
@@ -429,7 +448,8 @@ const BQA_TRANSLATIONS = {
     "masseriola.book.h2": "Book BQA La Masseriola Private Villa-Trullo",
     "masseriola.book.p": "Message us on WhatsApp or by email with your stay dates: we'll confirm availability and payment details.",
     "masseriola.book.wa": "https://wa.me/393892570302?text=Hi%2C%20I%27d%20like%20information%20about%20BQA%20La%20Masseriola%20Private%20Villa-Trullo",
-    "masseriola.book.mail": "mailto:bqaboutiquehomesandvillas@gmail.com?subject=Availability%20request%20-%20BQA%20La%20Masseriola%20Private%20Villa-Trullo"
+    "masseriola.book.mail": "mailto:bqaboutiquehomesandvillas@gmail.com?subject=Availability%20request%20-%20BQA%20La%20Masseriola%20Private%20Villa-Trullo",
+    "masseriola.crosslinks": "Discover our other properties too: <a href=\"trastevere.html\">BQA San Crisogono Apartments Rome-Trastevere</a> · <a href=\"flaminio.html\">BQA Fracassini Rooms Rome-Flaminio</a>"
   }
 };
 
