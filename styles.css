@@ -255,6 +255,16 @@ footer .footer-logo{ height:36px; width:auto; margin:0 auto 14px; border-radius:
 }
 .zona-thumb:hover img{ transform: scale(1.05); opacity:.9; }
 
+.gallery-thumb{
+  display:block; width:100%; padding:0; margin:0; border:0; cursor:pointer;
+  background:none; border-radius:10px; overflow:hidden;
+}
+.gallery-thumb img{
+  border-radius:10px; aspect-ratio:4/3; object-fit:cover; width:100%;
+  transition: transform .25s ease, opacity .25s ease;
+}
+.gallery-thumb:hover img{ transform: scale(1.05); opacity:.9; }
+
 /* ---------- Lightbox ---------- */
 .lightbox{ position:fixed; inset:0; z-index:200; display:none; align-items:center; justify-content:center; }
 .lightbox.open{ display:flex; }
