@@ -706,3 +706,32 @@ const BQA_TRANSLATIONS = {
     });
   });
 })();
+
+/* ============================================================
+   Helper condiviso: fade-in + slide-up allo scroll, con
+   IntersectionObserver unico. Elementi con classe "fade-in-section".
+   Fallback: se IntersectionObserver non è supportato, la classe
+   "js-fade-ready" non viene aggiunta e gli elementi restano
+   visibili di default (nessun rischio contenuto invisibile).
+   Riutilizzabile su qualunque pagina del sito.
+   ============================================================ */
+(function () {
+  if (!("IntersectionObserver" in window)) return;
+  document.documentElement.classList.add("js-fade-ready");
+
+  document.addEventListener("DOMContentLoaded", function () {
+    var els = document.querySelectorAll(".fade-in-section");
+    if (!els.length) return;
+
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15 });
+
+    els.forEach(function (el) { observer.observe(el); });
+  });
+})();

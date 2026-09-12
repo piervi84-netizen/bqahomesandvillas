@@ -420,3 +420,10 @@ footer .footer-logo{ height:36px; width:auto; margin:0 auto 14px; border-radius:
 }
 .trust-sep{ color:var(--line); }
 @media (max-width:600px){ .trust-bar{ font-size:.8rem; gap:6px 10px; padding:12px 24px; } }
+
+/* ---------- Fade-in on scroll (JS-only, safe no-JS fallback) ---------- */
+.js-fade-ready .fade-in-section{
+  opacity:0; transform:translateY(28px);
+  transition: opacity .65s ease, transform .65s ease;
+}
+.js-fade-ready .fade-in-section.visible{ opacity:1; transform:none; }
