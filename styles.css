@@ -427,3 +427,20 @@ footer .footer-logo{ height:36px; width:auto; margin:0 auto 14px; border-radius:
   transition: opacity .65s ease, transform .65s ease;
 }
 .js-fade-ready .fade-in-section.visible{ opacity:1; transform:none; }
+
+/* ---------- Mobile sticky booking CTA ---------- */
+.mobile-book-cta{ display:none; }
+@media (max-width:768px){
+  body{ padding-bottom: 64px; }
+  .mobile-book-cta{
+    display:flex; align-items:center; justify-content:center;
+    position:fixed; left:0; right:0; bottom:0; z-index:40;
+    background: var(--terracotta); color: var(--bg);
+    font-family:'Inter', sans-serif; font-weight:600; font-size:.95rem;
+    text-decoration:none; text-align:center;
+    padding:14px 24px calc(14px + env(safe-area-inset-bottom));
+    box-shadow: 0 -6px 20px rgba(30,27,22,0.18);
+    transition: transform .3s ease, opacity .3s ease;
+  }
+  .mobile-book-cta.hide-at-footer{ transform:translateY(120%); opacity:0; pointer-events:none; }
+}

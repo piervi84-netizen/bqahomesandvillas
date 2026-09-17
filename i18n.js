@@ -82,6 +82,8 @@ const BQA_TRANSLATIONS = {
     "index.trust.fees": "Zero commissioni OTA",
     "index.trust.count": "Dal centro di Roma alla Valle d'Itria",
     "index.trust.response": "Host disponibile in poche ore",
+    "index.mobilecta.href": "https://wa.me/393892570302?text=Ciao%2C%20vorrei%20informazioni%20sulle%20vostre%20strutture",
+    "index.mobilecta.label": "Prenota Diretto",
     "index.tag.trastevere.loc": "Trastevere · Roma",
     "index.tag.trastevere.desc": "Storico appartamento di 80 mq nel cuore di Trastevere, con cucina attrezzata e balcone privato.",
     "index.tag.trastevere.spec2": "Aria condizionata",
@@ -359,6 +361,8 @@ const BQA_TRANSLATIONS = {
     "index.trust.fees": "Zero OTA fees",
     "index.trust.count": "From central Rome to the Valle d'Itria",
     "index.trust.response": "Host available within hours",
+    "index.mobilecta.href": "https://wa.me/393892570302?text=Hi%2C%20I%27d%20like%20information%20about%20your%20properties",
+    "index.mobilecta.label": "Book Direct",
     "index.tag.trastevere.loc": "Trastevere · Rome",
     "index.tag.trastevere.desc": "Historic 80 sqm apartment in the heart of Trastevere, with a fully equipped kitchen and private balcony.",
     "index.tag.trastevere.spec2": "Air conditioning",
@@ -733,5 +737,28 @@ const BQA_TRANSLATIONS = {
     }, { threshold: 0.15 });
 
     els.forEach(function (el) { observer.observe(el); });
+  });
+})();
+
+/* ============================================================
+   Helper: nasconde il CTA sticky mobile "Prenota Diretto" quando
+   il footer entra in viewport, così non copre footer/altri CTA
+   quando l'utente è già in fondo alla pagina.
+   ============================================================ */
+(function () {
+  if (!("IntersectionObserver" in window)) return;
+
+  document.addEventListener("DOMContentLoaded", function () {
+    var cta = document.getElementById("mobile-book-cta");
+    var footer = document.getElementById("site-footer");
+    if (!cta || !footer) return;
+
+    var footerObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        cta.classList.toggle("hide-at-footer", entry.isIntersecting);
+      });
+    }, { threshold: 0 });
+
+    footerObserver.observe(footer);
   });
 })();
