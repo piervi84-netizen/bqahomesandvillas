@@ -762,3 +762,27 @@ const BQA_TRANSLATIONS = {
     footerObserver.observe(footer);
   });
 })();
+
+/* ============================================================
+   Helper: carosello automatico foto di sfondo nella hero della
+   homepage (.hero-bg-slide). Crossfade ogni 6s, loop infinito,
+   nessun controllo manuale. Rispetta prefers-reduced-motion:
+   se attivo, resta ferma la prima foto (già "active" via HTML/CSS),
+   nessun setInterval.
+   ============================================================ */
+(function () {
+  document.addEventListener("DOMContentLoaded", function () {
+    var slides = document.querySelectorAll(".hero-bg-slide");
+    if (!slides.length) return;
+
+    var reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (reduceMotion) return;
+
+    var current = 0;
+    setInterval(function () {
+      slides[current].classList.remove("active");
+      current = (current + 1) % slides.length;
+      slides[current].classList.add("active");
+    }, 6000);
+  });
+})();
