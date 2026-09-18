@@ -355,7 +355,7 @@ const BQA_TRANSLATIONS = {
     "index.title": "BQA Homes and Villas — Boutique Apartments and Villas in Rome and Puglia",
     "index.meta": "BQA Homes and Villas: boutique stays in Rome (Trastevere, Flaminio) and the Puglia countryside near Castellana Grotte. Book directly with us.",
     "index.hero.eyebrow": "Rome · Puglia — Independent hospitality",
-    "index.hero.h1": "Curated Italian stays, close to it all.",
+    "index.hero.h1": "Authentic Italian stays, close to it all.",
     "index.hero.lede": "From the authentic heart of Trastevere to the olive-grove hills of the Valle d'Itria: every BQA address is hand-picked, for stays that reveal Italy's true character.",
     "index.trust.rating": "4.83/5 on Airbnb – Guest Favorite in Trastevere",
     "index.trust.fees": "Zero OTA fees",
