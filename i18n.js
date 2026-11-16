@@ -620,6 +620,11 @@ const BQA_TRANSLATIONS = {
   }
 
   document.addEventListener("DOMContentLoaded", function () {
+    // Pagine statiche (index.html, trastevere.html e le versioni /en/) portano
+    // data-static-lang sull'<html>: sono già nella lingua giusta via HTML puro,
+    // quindi qui non si tocca lingua, <title>, <meta> o <html lang>.
+    if (document.documentElement.hasAttribute("data-static-lang")) return;
+
     applyLanguage(detectDefaultLang());
 
     document.querySelectorAll(".lang-btn").forEach(function (btn) {
