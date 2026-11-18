@@ -129,6 +129,7 @@ img,svg,picture{ max-width:100%; height:auto; display:block; }
   z-index:2;
 }
 .keytag .photo{ aspect-ratio: 4/3; overflow:hidden; }
+.keytag .photo picture{ height:100%; }
 .keytag .photo img{ width:100%; height:100%; object-fit:cover; }
 .keytag .body{ padding: 20px 22px 24px; border-top: 1px dashed var(--line); display:flex; flex-direction:column; flex:1; }
 .keytag h3{ font-size:1.3rem; margin-bottom:.25em; }
