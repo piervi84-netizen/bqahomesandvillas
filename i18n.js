@@ -186,7 +186,7 @@ const BQA_TRANSLATIONS = {
     "trastevere.faq.elevator.a": "No, l'appartamento si trova al secondo piano senza ascensore.",
 
     // ---------- flaminio.html ----------
-    "flaminio.meta": "B&B boutique nel quartiere Flaminio, Roma, a 10 minuti da Piazza del Popolo. Tre tipologie di camera, bagno privato, aria condizionata. Prenota direttamente con BQA Homes and Villas.",
+    "flaminio.meta": "B&B boutique nel quartiere Flaminio, Roma, a 10 minuti da Piazza del Popolo. Tre tipologie di camera, bagno privato, aria condizionata. Prenota diretto.",
     "flaminio.hero.loc": "Flaminio · Roma",
     "flaminio.hero.lede": "Cerchi una stanza vicino allo Stadio Olimpico, nel quartiere Flaminio? Boutique B&B nel quartiere Flaminio: tre tipologie di camera con bagno e cucina a uso privato, a due passi da Piazza del Popolo e Stadio Olimpico.",
     "flaminio.mainphoto.alt": "Vista di BQA Fracassini Rooms Rome-Flaminio",
@@ -253,7 +253,7 @@ const BQA_TRANSLATIONS = {
     "flaminio.faq.elevator.a": "Sì, l'edificio è dotato di ascensore.",
 
     // ---------- masseriola.html ----------
-    "masseriola.meta": "Trullo con piscina privata a Castellana Grotte, Puglia. Fino a 4 ospiti (+1 su richiesta), 2 camere, giardino e barbecue. Prenota direttamente con BQA Homes and Villas.",
+    "masseriola.meta": "Trullo con piscina privata a Castellana Grotte, Puglia. Fino a 4 ospiti (+1 su richiesta), 2 camere, giardino e barbecue. Prenota direttamente con noi.",
     "masseriola.hero.lede": "Cerchi una villa con piscina privata in Puglia? Trullo e villa in campagna a Castellana Grotte, tra ulivi secolari: piscina privata, giardino e zona barbecue, per una vacanza pugliese all'insegna della calma.",
     "masseriola.mainphoto.alt": "La piscina di BQA La Masseriola Private Villa-Trullo, con vista sugli ulivi",
     "masseriola.gallery.thumb.alt": "BQA La Masseriola Private Villa-Trullo",
