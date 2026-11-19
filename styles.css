@@ -90,7 +90,7 @@ img,svg,picture{ max-width:100%; height:auto; display:block; }
 .hero .eyebrow{ margin-bottom: 14px; color:#fff; }
 .hero h1{ font-size: clamp(2.2rem, 5vw, 3.6rem); max-width: 14ch; color:#fff; }
 .hero p.lede{ max-width:56ch; color: rgba(255,255,255,.88); font-size:1.08rem; }
-.hero--plain{ flex-direction:column; align-items:stretch; gap:12px; }
+.hero--plain{ flex-direction:column; align-items:stretch; gap:12px; min-height:0; max-width:1100px; margin:0 auto; padding:60px 24px 0; }
 .hero--plain h1{ color: var(--ink); }
 .hero--plain p.lede{ color: var(--ink-soft); max-width:64ch; }
 .hero--plain .mono{ color: var(--ink-soft); }
