@@ -39,9 +39,21 @@
   </url>
   <url>
     <loc>https://bqahomesandvillas.com/flaminio.html</loc>
-    <lastmod>2026-11-18</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://bqahomesandvillas.com/flaminio.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://bqahomesandvillas.com/en/flaminio.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bqahomesandvillas.com/flaminio.html" />
+  </url>
+  <url>
+    <loc>https://bqahomesandvillas.com/en/flaminio.html</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://bqahomesandvillas.com/flaminio.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://bqahomesandvillas.com/en/flaminio.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bqahomesandvillas.com/flaminio.html" />
   </url>
   <url>
     <loc>https://bqahomesandvillas.com/masseriola.html</loc>
