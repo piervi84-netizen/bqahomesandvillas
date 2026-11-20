@@ -73,9 +73,9 @@ const BQA_TRANSLATIONS = {
 
 
     // ---------- flaminio.html ----------
-    "flaminio.meta": "B&B boutique nel quartiere Flaminio, Roma, a 10 minuti da Piazza del Popolo. Tre tipologie di camera, bagno privato, aria condizionata. Prenota diretto.",
+    "flaminio.meta": "Camere a Flaminio, Roma, a 10 minuti a piedi da Piazza del Popolo. Tre tipologie di camera, bagno privato, aria condizionata. Prenota diretto.",
     "flaminio.hero.loc": "Flaminio · Roma",
-    "flaminio.hero.lede": "Cerchi una stanza vicino allo Stadio Olimpico, nel quartiere Flaminio? Boutique B&B nel quartiere Flaminio: tre tipologie di camera con bagno e cucina a uso privato, a due passi da Piazza del Popolo e Stadio Olimpico.",
+    "flaminio.hero.lede": "Cerchi una stanza vicino allo Stadio Olimpico, nel quartiere Flaminio? Camere a Flaminio, Roma: tre tipologie di camera con bagno e cucina a uso privato, a due passi da Piazza del Popolo e Stadio Olimpico.",
     "flaminio.mainphoto.alt": "Vista di BQA Fracassini Rooms Rome-Flaminio",
     "flaminio.gallery.thumb.alt": "BQA Fracassini Rooms Rome-Flaminio",
     "flaminio.gallery.lightbox.title": "Galleria foto dell'appartamento",
@@ -239,9 +239,9 @@ const BQA_TRANSLATIONS = {
 
 
     // ---------- flaminio.html ----------
-    "flaminio.meta": "Boutique B&B in the Flaminio neighborhood, Rome, a 10-minute walk from Piazza del Popolo. Three room types, private bathroom, air conditioning. Book directly with BQA Homes and Villas.",
+    "flaminio.meta": "Rooms in Flaminio, Rome, a 10-minute walk from Piazza del Popolo. Three room types, private bathroom, air conditioning. Book directly with BQA Homes and Villas.",
     "flaminio.hero.loc": "Flaminio · Rome",
-    "flaminio.hero.lede": "Looking for a room near the Stadio Olimpico, in the Flaminio neighborhood? Boutique B&B in Flaminio: three room types with private bathroom and kitchen, steps from Piazza del Popolo and the Stadio Olimpico.",
+    "flaminio.hero.lede": "Looking for a room near the Stadio Olimpico, in the Flaminio neighborhood? Rooms in Flaminio, Rome: three room types with private bathroom and kitchen, steps from Piazza del Popolo and the Stadio Olimpico.",
     "flaminio.mainphoto.alt": "View of BQA Fracassini Rooms Rome-Flaminio",
     "flaminio.gallery.thumb.alt": "BQA Fracassini Rooms Rome-Flaminio",
     "flaminio.gallery.lightbox.title": "Apartment photo gallery",
