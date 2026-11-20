@@ -75,8 +75,20 @@
   </url>
   <url>
     <loc>https://bqahomesandvillas.com/faq.html</loc>
-    <lastmod>2026-11-18</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://bqahomesandvillas.com/faq.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://bqahomesandvillas.com/en/faq.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bqahomesandvillas.com/faq.html" />
+  </url>
+  <url>
+    <loc>https://bqahomesandvillas.com/en/faq.html</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://bqahomesandvillas.com/faq.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://bqahomesandvillas.com/en/faq.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bqahomesandvillas.com/faq.html" />
   </url>
 </urlset>
