@@ -188,7 +188,7 @@ const BQA_TRANSLATIONS = {
     "avail.title": "Availability",
     "avail.desc": "Check real-time availability on our official listing, always in sync.",
     "avail.btn": "Check availability on Booking.com",
-    "book.eyebrow": "Book directly, zero fees",
+    "book.eyebrow": "Book directly, no OTA commissions",
     "book.wa.label": "Message on WhatsApp",
     "book.mail.label": "Send an email",
     "pay.title": "Accepted payment methods",
