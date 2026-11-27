@@ -91,4 +91,12 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://bqahomesandvillas.com/en/faq.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://bqahomesandvillas.com/faq.html" />
   </url>
+  <url>
+    <loc>https://bqahomesandvillas.com/privacy.html</loc>
+    <lastmod>2026-11-27</lastmod>
+  </url>
+  <url>
+    <loc>https://bqahomesandvillas.com/en/privacy.html</loc>
+    <lastmod>2026-11-27</lastmod>
+  </url>
 </urlset>
