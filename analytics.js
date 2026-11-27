@@ -5,8 +5,8 @@
   var KEY = 'bqa_consent';
   var isEN = (document.documentElement.lang || '').toLowerCase().indexOf('en') === 0;
   var T = isEN
-    ? { text: 'We use analytics cookies (Google Analytics) to understand how the site is used and improve it. You can accept or decline.', yes: 'Accept', no: 'Decline' }
-    : { text: 'Usiamo cookie di analisi (Google Analytics) per capire come viene usato il sito e migliorarlo. Puoi accettare o rifiutare.', yes: 'Accetta', no: 'Rifiuta' };
+    ? { text: 'We use analytics cookies (Google Analytics) to understand how the site is used and improve it. You can accept or decline. <a href="/en/privacy.html" style="color:inherit;text-decoration:underline">Privacy</a>', yes: 'Accept', no: 'Decline' }
+    : { text: 'Usiamo cookie di analisi (Google Analytics) per capire come viene usato il sito e migliorarlo. Puoi accettare o rifiutare. <a href="/privacy.html" style="color:inherit;text-decoration:underline">Privacy</a>', yes: 'Accetta', no: 'Rifiuta' };
 
   function get() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
   function set(v) { try { localStorage.setItem(KEY, v); } catch (e) {} }
